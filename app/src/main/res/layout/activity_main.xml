@@ -17,7 +17,7 @@
        <TableRow android:layout_weight="1"
            android:gravity="center">
 
-           <Button android:id="@+id/btnUILayouts" android:text="UI Layouts" android:layout_width="match_parent" android:layout_height="match_parent"/>
+           <Button android:id="@+id/btnLinearLayout" android:text="Linear Layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
            <Button android:text="1" android:layout_width="match_parent" android:layout_height="match_parent"/>
            <Button android:text="1" android:layout_width="match_parent" android:layout_height="match_parent"/>
        </TableRow>

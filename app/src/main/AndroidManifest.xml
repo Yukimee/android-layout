@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".UILayoutsActivity"/>
+        <activity android:name=".LinearLayoutActivity"/>
     </application>
 
 </manifest>

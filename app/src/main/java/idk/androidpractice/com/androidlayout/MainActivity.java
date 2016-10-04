@@ -15,18 +15,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnUILayouts = (Button) findViewById(R.id.btnUILayouts);
+        btnUILayouts = (Button) findViewById(R.id.btnLinearLayout);
         btnUILayouts.setOnClickListener(this);
 
-        //momoiioi
     }
 
     @Override
     public void onClick(View view) {
         Intent intent;
         switch (view.getId()){
-            case R.id.btnUILayouts:
-                intent = new Intent(MainActivity.this, UILayoutsActivity.class);
+            case R.id.btnLinearLayout:
+                intent = new Intent(MainActivity.this, LinearLayoutActivity.class);
                 startActivity(intent);
                 break;
         }
