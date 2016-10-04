@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnUILayouts = (Button) findViewById(R.id.btnUILayouts);
         btnUILayouts.setOnClickListener(this);
 
+        //momoiioi
     }
 
     @Override
