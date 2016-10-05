@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout;
+    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout, btnListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnFrameLayout = (Button) findViewById(R.id.btnFrameLayout);
         btnFrameLayout.setOnClickListener(this);
+
+        btnListView = (Button) findViewById(R.id.btnListView);
+        btnListView.setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnFrameLayout:
                 intent = new Intent(MainActivity.this, FrameLayoutActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnListView:
+                intent = new Intent(MainActivity.this, ListViewActivity.class);
                 startActivity(intent);
                 break;
         }
