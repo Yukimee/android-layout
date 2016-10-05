@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnUILayouts, btnRelativeLayout, btnTableLayout;
+    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +23,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnTableLayout = (Button) findViewById(R.id.btnTableLayout);
         btnTableLayout.setOnClickListener(this);
+
+        btnFrameLayout = (Button) findViewById(R.id.btnFrameLayout);
+        btnFrameLayout.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         Intent intent;
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.btnLinearLayout:
                 intent = new Intent(MainActivity.this, LinearLayoutActivity.class);
                 startActivity(intent);
@@ -41,7 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MainActivity.this, TableLayoutActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btnFrameLayout:
+                intent = new Intent(MainActivity.this, FrameLayoutActivity.class);
+                startActivity(intent);
+                break;
         }
-
     }
 }

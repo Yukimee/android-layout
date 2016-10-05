@@ -15,45 +15,52 @@
         android:stretchColumns="*">
 
         <TableRow
-            android:layout_weight="1"
+            android:layout_weight="0.9"
             android:gravity="center">
 
             <Button
                 android:id="@+id/btnLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="Linear Layout" />
 
             <Button
                 android:id="@+id/btnRelativeLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="Relative Layout" />
 
             <Button
                 android:id="@+id/btnTableLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="Table Layout" />
         </TableRow>
 
         <TableRow
-            android:layout_weight="1"
+            android:layout_weight="0.9"
             android:gravity="center">
 
             <Button
+                android:id="@+id/btnFrameLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:text="Frame Layout" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="1" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
         </TableRow>
 
@@ -64,16 +71,19 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
         </TableRow>
 
@@ -84,16 +94,19 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:text="1" />
         </TableRow>
 
