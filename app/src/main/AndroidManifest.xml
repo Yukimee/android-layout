@@ -20,7 +20,8 @@
         <activity android:name="activities.TableLayoutActivity" />
         <activity android:name="activities.FrameLayoutActivity" />
         <activity android:name="activities.ListViewActivity" />
-        <activity android:name="activities.CursorListViewActivity"></activity>
+        <activity android:name="activities.CursorListViewActivity" />
+        <activity android:name="activities.GridViewActivity"></activity>
     </application>
 
 </manifest>

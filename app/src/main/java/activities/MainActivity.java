@@ -10,7 +10,7 @@ import idk.androidpractice.com.androidlayout.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout, btnListView, btnCursorListView;
+    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout, btnListView, btnCursorListView, btnGridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnCursorListView = (Button) findViewById(R.id.btnCursorListView);
         btnCursorListView.setOnClickListener(this);
+
+        btnGridView = (Button) findViewById(R.id.btnGridView);
+        btnGridView.setOnClickListener(this);
     }
 
     @Override
@@ -62,6 +65,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnCursorListView:
                 intent = new Intent(MainActivity.this, CursorListViewActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnGridView:
+                intent = new Intent(MainActivity.this, GridViewActivity.class);
                 startActivity(intent);
                 break;
         }

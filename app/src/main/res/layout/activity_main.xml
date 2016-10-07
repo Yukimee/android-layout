@@ -71,10 +71,11 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/btnGridView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.3"
-                android:text="1" />
+                android:text="Grid View" />
 
             <Button
                 android:layout_width="match_parent"
