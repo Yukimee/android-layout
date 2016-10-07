@@ -1,7 +1,9 @@
-package idk.androidpractice.com.androidlayout;
+package activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import idk.androidpractice.com.androidlayout.R;
 
 public class LinearLayoutActivity extends AppCompatActivity{
 

@@ -1,7 +1,9 @@
-package idk.androidpractice.com.androidlayout;
+package activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import idk.androidpractice.com.androidlayout.R;
 
 public class RelativeLayoutActivity extends AppCompatActivity {
 

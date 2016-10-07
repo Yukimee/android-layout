@@ -1,9 +1,11 @@
-package idk.androidpractice.com.androidlayout;
+package activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import idk.androidpractice.com.androidlayout.R;
 
 public class ListViewActivity extends AppCompatActivity {
 

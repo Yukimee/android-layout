@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="idk.androidpractice.com.androidlayout.MainActivity">
+    tools:context="activities.MainActivity">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -59,10 +59,11 @@
                 android:text="List View" />
 
             <Button
+                android:id="@+id/btnCursorListView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.3"
-                android:text="1" />
+                android:text="Cursor List View" />
         </TableRow>
 
         <TableRow

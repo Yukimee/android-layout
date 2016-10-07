@@ -8,18 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LinearLayoutActivity" />
-        <activity android:name=".RelativeLayoutActivity" />
-        <activity android:name=".TableLayoutActivity" />
-        <activity android:name=".FrameLayoutActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name="activities.LinearLayoutActivity" />
+        <activity android:name="activities.RelativeLayoutActivity" />
+        <activity android:name="activities.TableLayoutActivity" />
+        <activity android:name="activities.FrameLayoutActivity" />
+        <activity android:name="activities.ListViewActivity" />
+        <activity android:name="activities.CursorListViewActivity"></activity>
     </application>
 
 </manifest>
