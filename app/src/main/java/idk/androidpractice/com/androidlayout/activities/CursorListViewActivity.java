@@ -1,4 +1,4 @@
-package activities;
+package idk.androidpractice.com.androidlayout.activities;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import db.PhoneBookDB;
+import idk.androidpractice.com.androidlayout.db.PhoneBookDB;
 import idk.androidpractice.com.androidlayout.R;
 
 public class CursorListViewActivity extends AppCompatActivity {

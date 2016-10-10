@@ -1,4 +1,4 @@
-package activities;
+package idk.androidpractice.com.androidlayout.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +10,8 @@ import idk.androidpractice.com.androidlayout.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout, btnListView, btnCursorListView, btnGridView;
+    private Button btnUILayouts, btnRelativeLayout, btnTableLayout, btnFrameLayout, btnListView, btnCursorListView,
+            btnGridView, btnUIControls;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnGridView = (Button) findViewById(R.id.btnGridView);
         btnGridView.setOnClickListener(this);
+
+        btnUIControls = (Button) findViewById(R.id.btnUIControls);
+        btnUIControls.setOnClickListener(this);
     }
 
     @Override
@@ -69,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnGridView:
                 intent = new Intent(MainActivity.this, GridViewActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnUIControls:
+                intent = new Intent(MainActivity.this, UIControlsActivity.class);
                 startActivity(intent);
                 break;
         }

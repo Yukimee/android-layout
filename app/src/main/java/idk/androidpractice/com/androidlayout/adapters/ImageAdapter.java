@@ -1,4 +1,4 @@
-package adapters;
+package idk.androidpractice.com.androidlayout.adapters;
 
 import android.content.Context;
 import android.view.View;

@@ -10,6 +10,6 @@
     android:numColumns="auto_fit"
     android:stretchMode="columnWidth"
     android:verticalSpacing="10dp"
-    tools:context="activities.GridViewActivity">
+    tools:context=".activities.GridViewActivity">
 
 </GridView>

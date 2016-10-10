@@ -1,10 +1,10 @@
-package activities;
+package idk.androidpractice.com.androidlayout.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 
-import adapters.ImageAdapter;
+import idk.androidpractice.com.androidlayout.adapters.ImageAdapter;
 import idk.androidpractice.com.androidlayout.R;
 
 public class GridViewActivity extends AppCompatActivity {

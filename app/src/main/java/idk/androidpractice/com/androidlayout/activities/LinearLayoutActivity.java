@@ -1,4 +1,4 @@
-package activities;
+package idk.androidpractice.com.androidlayout.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

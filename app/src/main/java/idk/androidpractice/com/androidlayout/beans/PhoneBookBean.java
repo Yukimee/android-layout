@@ -1,4 +1,4 @@
-package beans;
+package idk.androidpractice.com.androidlayout.beans;
 
 public class PhoneBookBean {
 

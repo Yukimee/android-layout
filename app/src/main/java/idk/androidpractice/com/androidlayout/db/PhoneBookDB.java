@@ -1,4 +1,4 @@
-package db;
+package idk.androidpractice.com.androidlayout.db;
 
 import android.content.ContentValues;
 import android.content.Context;
