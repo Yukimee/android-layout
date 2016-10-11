@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import idk.androidpractice.com.androidlayout.R;
 
@@ -44,8 +45,11 @@ public class UIControlsActivity extends AppCompatActivity implements View.OnClic
             StringBuffer result = new StringBuffer();
 
             if(cb1.isChecked()){
-                result.append("Here you go: ").append(cb1.isChecked());
+                result.append("Here you go: " + cb1.getText() + " is ").append(cb1.isChecked());
+            }else{
+                result.append("Here you are: " + cb2.getText() + " is ").append(cb2.isChecked());
             }
+            Toast.makeText(UIControlsActivity.this, result.toString(), Toast.LENGTH_LONG).show();
 
         }
 
