@@ -63,7 +63,43 @@
             android:id="@+id/btnDone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DONE"/>
+            android:text="DONE" />
+
+        <ToggleButton
+            android:id="@+id/tbMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mango" />
+
+            <RadioButton
+                android:id="@+id/rbMatcha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Matcha" />
+
+            <RadioButton
+                android:id="@+id/rbDurian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durian" />
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spAnimals"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

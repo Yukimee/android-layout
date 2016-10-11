@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Layout</string>
+
+    <string name="please_select_your_favourite_animal">Please Select Your Favourite Animal.</string>
 </resources>
